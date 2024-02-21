@@ -1,0 +1,117 @@
+
+
+.data{
+    background-color: aliceblue;
+}
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #ffd106;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+.property-listing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: aliceblue;   
+     color: #070000;
+}
+
+.property {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.property img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+img{
+    background-color: cornflowerblue;
+}
+
+.price {
+    display: block;
+    font-size: 1.2em;
+    color: #100cf7;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.contact-form-container {
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7d230;
+}
+
+h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219e4e;
+}
+
+
+footer {
+    background-color: #353a3a;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
